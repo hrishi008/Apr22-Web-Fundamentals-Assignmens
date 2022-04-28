@@ -1,0 +1,195 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(40, 38, 38);
+
+}
+/* NAVIGATION BAR DESIGN STARTS  */
+#logo1{
+    height: 30px;
+    width: 30px;
+}
+#navbar{
+    text-align: center;
+    display: flex;
+    background-color: rgb(33, 32, 32);
+    color: aqua;
+}
+#navbar1{
+    width: 15% ;
+
+}
+#navbar2{
+    width: 50%;
+    padding-top: 25px;
+
+}
+#navbar3{
+    width: 35%;
+    margin-top: 50px;
+ 
+}
+#tab1{
+    margin: 10px auto;
+    width: 100%;
+    padding: 20px;
+}
+#span1{
+ background-color: aqua;
+ color: black;
+ padding: 20px 40px;
+}
+#black{
+    color: black;
+}
+#span1:hover{
+    background-color: black;
+    color: aqua;
+}
+#black:hover{
+    color:aqua;
+}
+a{
+    color: aqua;
+    text-decoration: none;
+}
+/* NAVIGATION BAR DESIGN ENDS  */
+/* HOME DESIGN STARTS  */
+#home{
+    display: flex;
+    padding: 40px;
+}
+#ironman{
+    width: 45%;
+}
+#ironmanimg{
+    width: 100%;
+    height: 500px;
+}
+#intro{
+    background-color: rgb(40, 38, 38);
+    width: 51%;
+    padding: 2%;
+    line-height: 20px;
+    height: 484px;
+    margin: 0px auto;
+}
+#cv{
+    background-color: rgb(40, 38, 38);
+    color: aqua;
+    border: 2px solid aqua;
+    padding: 5px;
+}
+/* HOME DESIGN ENDS  */
+/* ABOUT DESIGN STARTS  */
+#about{
+    background-color: rgb(128, 131, 133);
+
+}
+
+#myimage{
+    width: 300px;
+    height: 450px;
+    padding: 40px;
+}
+/* ABOUT DESIGN ENDS  */
+/* SERVICES DESIGN STARTS  */
+#service{
+    background-color: rgb(128, 131, 133);
+    text-align: center;
+    padding: 40px;
+}
+#gd{
+    width: 300px;
+    height: 225px;
+    background-color: white;
+    align-items: center;
+    margin-top: 100px;
+}
+
+}
+#gd:hover{
+    background-color: black;
+    color: aliceblue;
+}
+#available{
+    background-color: rgb(128, 131, 133);
+    color: whitesmoke;
+    padding: 200px;
+    
+    background-image: url(https://media.istockphoto.com/photos/abstract-red-and-black-are-light-pattern-with-the-gradient-is-the-picture-id1205633216?k=20&m=1205633216&s=612x612&w=0&h=KWDzx6e4FX20F7Ff1HZgcRdQLRc_JdyB2BYthmEbMyQ=);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#cv1{
+    padding: 10px 30px;
+    font-weight: bold;
+    background-color: aqua;
+}
+#cv1:hover{
+    background-color: black;
+    color: aqua;
+}
+ /* SERVICES DESIGN ENDS  */
+ /* WORK DESIGN STARTS  */
+ #work{
+    height: 1600px;
+     background-color: rgb(128, 131, 133);
+     text-align: center;
+
+    }
+    #clint{
+        padding: 100px;
+        background-color: rgb(128, 131, 133);
+    color: whitesmoke;
+    
+    margin-top: 20px;
+    background-image: url(https://media.istockphoto.com/photos/abstract-red-and-black-are-light-pattern-with-the-gradient-is-the-picture-id1205633216?k=20&m=1205633216&s=612x612&w=0&h=KWDzx6e4FX20F7Ff1HZgcRdQLRc_JdyB2BYthmEbMyQ=);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    }
+    #b2:hover{
+        background-color: aqua;
+        width: 25px;
+    }
+    /* WORK DESIGN ENDS  */
+    /* BLOG DESIGN STARTS */
+#blog{
+    text-align: center;
+    line-height: 10px;
+}
+    #blog1{
+        height: 500px;
+        width: 300px;
+        background-color: azure;
+        line-height: 15px;
+        text-align: justify;
+        padding: 25px;
+        margin: 20px;
+    }
+    #blog2{
+        height: 500px;
+        width: 300px;
+        background-color: azure;
+        line-height: 15px;
+        text-align: justify;
+        padding: 25px;
+        margin: 20px;
+    }
+    #blog3{
+        height: 500px;
+        width: 300px;
+        background-color: azure;
+        line-height: 15px;
+        text-align: justify;
+        padding: 25px; margin: 20px;
+    }
+    #container2{
+        display: flex;
+        align-items: center;
+        margin: 20px auto;
+        justify-content: center;
+
+    }
+    /* BLOG DESIGN ENDS */
