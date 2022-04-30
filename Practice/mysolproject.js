@@ -4,43 +4,49 @@ var ln= prompt("whats your last name");
 var age= prompt("whats your age");
 var height= prompt("whats your height in cm");
 var pn= prompt("whats your pet name");
-var fna= fn[0];
-var lna= ln[0];
+var y=0;
+var fnv=true;
+var agev=true;
+var heightv=true;
+var pnv=true;
 
-if (fna=lna)
+if(fn[0]=ln[0] )
 {
-    if(age < 30 && age > 20)
-    {
-        if(height>=170)
-        {
-            for (let index = 0; index < pn.length; index++) 
-            {
-                
-                if (pn[index]==="y") {
-                    console.log("sucess");
-                    break;
-                }else{
-                    console.log("fail");
-                
-                }
-                
-                 
-                
-            }
-
-        }else{
-            console.log("fail");
-        
-        }
-        
-
-    }else{
-        console.log("fail");
-    
-    }
-    
+    fnv=true;
 }
 else{
-    console.log("fail");
-
+    fnv=false;
 }
+if(age>20 && age<30)
+{
+    agev=true;
+}
+else{
+    agev=false;
+}
+if(height>=170)
+{
+    heightv=true;
+}
+else{
+    heightv=false;
+}
+for(let i=0;i<pn.length;i++)
+{
+if(pn[i]==="y")
+{
+    pnv= true;
+}
+else{
+    pnv=false;
+}
+}
+if(fnv && agev && heightv && pnv )
+{
+    console.log("success");
+}
+else
+{
+    console.log("fail");
+}
+
