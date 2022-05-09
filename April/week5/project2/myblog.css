@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    font-family: 'PT Sans', sans-serif;
 }
 .navbar{
     width: 100%;
@@ -63,18 +64,17 @@ a button:hover{
 }
 .skills{
     background-color: #373a3b;
-    color: rgb(205, 198, 198);
-    padding: 5%;
+    color: rgb(62, 58, 58);
+    padding: 3%;
     display: grid;
     grid-template-columns: repeat(4,23%);
     grid-column-gap: 2%;
-    text-align: center;
+    text-align:start;
 }
 .skill{
     padding: 2% 4%;
-    background-color: rgb(27, 19, 19);
-    border-radius: 30%;
-    box-shadow: 0 0 10px white;
+    background-color: rgb(154, 157, 136);
+    border-radius: 20px;
     border-bottom:5px solid #d1e0e6;
     margin-top: 0;
 }
@@ -84,7 +84,7 @@ a button:hover{
 }
 .form{
     align-self: center;
-    padding left: 0%;
+    padding-left: 0%;
 }
 form{
     background: rgb(98, 180, 234);
@@ -101,8 +101,8 @@ input[type="submit"]{
     color: aliceblue;
     border: 0px;
     padding: 5% 15%;
-    border-radius: 40%;
-    box-shadow: 0 0 5px white;                
+    border-radius: 40px;
+    box-shadow: 0 0 5px white;
 }
 .footer{
     color: #98989b;
